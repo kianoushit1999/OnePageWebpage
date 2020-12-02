@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: black;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    font-family: Sofia;
+}
+header{
+
+    background: url("../images/pineapple.jpg") center;
+    background-size: cover;
+    text-shadow: 0px 0px 10px #ffc409;
+    font-weight: bolder;
+    font-size: 18px;
+    font-style: oblique;
+    box-shadow: 0px 0px 20px rgb(221,239,243);
+}
+nav{
+    background: transparent;
+}
+
+
+.center-header{
+    text-align: center;
+}
+br+.center-header{
+    line-height: 40px;
+}
+
+#btn-header{
+    border-radius: 20px;
+    background-color: gold;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 10px gray;
+}
+.about-us{
+    font-family: Sofia;
+    text-shadow: 2px 2px 20px #0c4128;
+}
+
+hr{
+    margin: 25px auto;
+    width: 20rem;
+    border: 5px solid #0c4128;
+}
+.inform{
+    background-color: #ddeff3;
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%2301103c' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");;
+}
+@media(max-width: 990px){
+    .nav-item-center{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 600px){
+    .xs-center{
+        justify-content: center;
+    }
+    .mr-top{
+        margin-top: 35px;
+    }
+}
+
+@media(min-width: 920px){
+    .set_whole{
+        height: 100%;
+    }
+    #btn-header,.center-header{
+        font-size: xx-large;
+    }
+}
+
+
+
+
+
+
+
+
+

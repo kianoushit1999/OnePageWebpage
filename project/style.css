@@ -11,9 +11,9 @@ body {
     font-family: Sofia;
 }
 header{
-    background: url("../images/shape.jpg") center;
+    background: url("../images/shape1.jpg") center;
     background-size: cover;
-    text-shadow: 0px 0px 10px #ffc409;
+    text-shadow: 0px 0px 10px #fff;
     font-weight: bolder;
     font-size: 18px;
     font-style: oblique;
@@ -34,21 +34,21 @@ br+.center-header{
 
 #btn-header{
     border-radius: 20px;
-    background-color: gold;
+    background-color: #fff;
     font-weight: bold;
-    border: 2px solid goldenrod;
+    border: 2px solid #100051;
     box-shadow: 2px 2px 10px gray;
     box-shadow: 2px 2px 10px gray;
 }
 .about-us{
     font-family: Sofia;
-    text-shadow: 2px 2px 20px #0c4128;
+    text-shadow: 2px 2px 20px lightblue;
 }
 
 hr{
     margin: 25px auto;
     width: 20rem;
-    border: 5px solid #0c4128;
+    border: 5px solid lightblue;
 }
 .inform{
     background-color: #ddeff3;

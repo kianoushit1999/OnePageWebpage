@@ -62,6 +62,23 @@ i{
     font-size: 20px;
 }
 
+#footer{
+    background: #273036;
+    height: 400px;
+    max-width: 100%;
+}
+#footer-inside{
+    background: url('../images/wave.svg') no-repeat;
+    width: 100%;
+    height: inherit;
+}
+.blues{
+    color: black;
+    font-weight: bold;
+}
+.fotter-info{
+    line-height: 30px;
+}
 @media(max-width: 990px){
     .nav-item-center{
         display: flex;
@@ -84,6 +101,9 @@ i{
     }
     #btn-header,.center-header{
         font-size: xx-large;
+    }
+    #footer{
+        font-size: x-large;
     }
 }
 
